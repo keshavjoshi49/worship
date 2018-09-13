@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the page gets loaded succesfully.</description>
+   <name>LoginPageLoad</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>449a513b-f8e3-45e5-8c23-62d9f3520a61</testCaseGuid>
+   <variable>
+      <defaultValue>'http://dev62.calvarycch.org'</defaultValue>
+      <description></description>
+      <id>ffb40793-8136-40f8-931b-e7899432dee9</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>
