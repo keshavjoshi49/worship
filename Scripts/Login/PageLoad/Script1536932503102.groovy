@@ -1,5 +1,5 @@
 /*
- * This test case verifies that if a user login with valid username/password then user should successfully logged in.
+ * This test case verifies the URL opened is correct and correct page is getting loaded
  */
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
@@ -17,16 +17,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//Call test case that initalize browser and Open secure URL
-WebUI.callTestCase(findTestCase('Pre-requisite/OpenUrl'), [('SecureUrl') : 'https://dev62.calvarycch.org'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pre-requisite/OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//Pass valid credentials and click on login.
-WebUI.setText(findTestObject('Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'), 'testworship')
+WebUI.navigateToUrl(url)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'), '8SQVv/p9jVTHLrggi8kCzw==')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Login/input'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_CCCH Worship - Login/input'))
-
-// After successful login check for the text present to ensure login is fine.
-WebUI.verifyTextPresent('ANNOUNCEMENTS', true, FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pre-requisite/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 

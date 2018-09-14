@@ -1,3 +1,7 @@
+/*
+ * This test cases verifies that if user hit a secure url (https) then also the correct page is getting loaded.
+ */
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -15,7 +19,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Pre-requisite/OpenBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(url)
+WebUI.navigateToUrl(SecureUrl)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Login/input'), 0)
+
+WebUI.callTestCase(findTestCase('Pre-requisite/CloseBrowser'), [:], FailureHandling.STOP_ON_FAILURE)
 

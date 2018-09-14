@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify the page gets loaded succesfully.</description>
+   <name>SecurePageLoad</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea55f744-34c6-478e-be54-da19b9aef563</testCaseGuid>
+   <variable>
+      <defaultValue>'https://dev62.calvarycch.org'</defaultValue>
+      <description></description>
+      <id>7d9c9ac8-5e6b-47f5-94c9-d9d907e5e566</id>
+      <masked>false</masked>
+      <name>SecureUrl</name>
+   </variable>
+</TestCaseEntity>
