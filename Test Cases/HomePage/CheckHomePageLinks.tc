@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Check the links on home page</description>
-   <name>CheckHomePageLinks</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>29f2f9f3-392b-47f7-a41b-5403605e9434</testCaseGuid>
-</TestCaseEntity>

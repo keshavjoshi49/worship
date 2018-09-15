@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HomePage" time="160" tests="6" failures="1" errors="0">
+   <testsuite name="HomePage" tests="6" failures="1" errors="0" time="160" timestamp="2018-09-15 21:34:15" hostname="NITISH - home" id="Test Suites/HomePage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Redmine\\worship\\test\\Reports\\HomePage\\20180915_213411"/>
+         <property name="logFiles" value="D:\\Redmine\\worship\\test\\Reports\\HomePage\\20180915_213411\\execution0.log"/>
+         <property name="attachments" value="D:\\Redmine\\worship\\test\\Reports\\HomePage\\20180915_213411\\1537027583802.png"/>
+         <property name="hostName" value="NITISH - home"/>
+         <property name="os" value="Windows 8.1 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.92"/>
+         <property name="hostAddress" value="192.168.0.103"/>
+         <property name="sessionId" value="80224f200666cf1774eb71ba6cbf33a4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 8.1"/>
+      </properties>
+      <testcase name="Test Cases/HomePage/CheckLibraryLink" classname="Test Cases/HomePage/CheckLibraryLink" status="PASSED">
+         <system-out><![CDATA[2018-09-15 21:34:15 - [TEST_CASE][PASSED] - Test Cases/HomePage/CheckLibraryLink: Test Cases/HomePage/CheckLibraryLink
+
+2018-09-15 21:34:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-15 21:34:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-15 21:34:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://dev62.calvarycch.org' successfully
+
+2018-09-15 21:34:25 - [MESSAGE][PASSED] - Navigate to 'https://dev62.calvarycch.org' successfully
+
+2018-09-15 21:34:25 - [TEST_STEP][PASSED] - setText: Text 'testworship' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'
+
+2018-09-15 21:34:25 - [MESSAGE][PASSED] - Text 'testworship' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'
+
+2018-09-15 21:34:25 - [TEST_STEP][PASSED] - setText: Text 'password123' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'
+
+2018-09-15 21:34:25 - [MESSAGE][PASSED] - Text 'password123' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'
+
+2018-09-15 21:34:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CCCH Worship - Login/input' is clicked on
+
+2018-09-15 21:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Login/input' is clicked on
+
+2018-09-15 21:34:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CCCH Worship - Home/div_Music Library' is clicked on
+
+2018-09-15 21:34:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Home/div_Music Library' is clicked on
+
+2018-09-15 21:34:40 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'CCCH Worship - Music Library'
+
+2018-09-15 21:34:40 - [MESSAGE][PASSED] - Current window's title is: 'CCCH Worship - Music Library'
+
+2018-09-15 21:34:40 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'CCCH Worship - Music Library' and expected text 'CCCH Worship - Music Library' are matched  using regular expression
+
+2018-09-15 21:34:40 - [MESSAGE][PASSED] - Actual text 'CCCH Worship - Music Library' and expected text 'CCCH Worship - Music Library' are matched  using regular expression
+
+2018-09-15 21:34:40 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Add Song' is present on page  using regular expression
+
+2018-09-15 21:34:43 - [MESSAGE][PASSED] - Text 'Add Song' is present on page  using regular expression
+
+2018-09-15 21:34:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-15 21:34:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/CheckPreferencesLink" classname="Test Cases/HomePage/CheckPreferencesLink" status="PASSED">
+         <system-out><![CDATA[2018-09-15 21:34:43 - [TEST_CASE][PASSED] - Test Cases/HomePage/CheckPreferencesLink: Test Cases/HomePage/CheckPreferencesLink
+
+2018-09-15 21:34:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-15 21:34:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-15 21:34:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://dev62.calvarycch.org' successfully
+
+2018-09-15 21:34:51 - [MESSAGE][PASSED] - Navigate to 'https://dev62.calvarycch.org' successfully
+
+2018-09-15 21:34:51 - [TEST_STEP][PASSED] - setText: Text 'testworship' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'
+
+2018-09-15 21:34:51 - [MESSAGE][PASSED] - Text 'testworship' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'
+
+2018-09-15 21:34:51 - [TEST_STEP][PASSED] - setText: Text 'password123' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'
+
+2018-09-15 21:34:52 - [MESSAGE][PASSED] - Text 'password123' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'
+
+2018-09-15 21:34:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CCCH Worship - Login/input' is clicked on
+
+2018-09-15 21:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Login/input' is clicked on
+
+2018-09-15 21:34:57 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Page_CCCH Worship - Home/div_Preferences' is hovered
+
+2018-09-15 21:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Home/div_Preferences' is hovered
+
+2018-09-15 21:34:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CCCH Worship - Home/a_My Information' is clicked on
+
+2018-09-15 21:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Home/a_My Information' is clicked on
+
+2018-09-15 21:34:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-15 21:34:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/CheckProfileLink" classname="Test Cases/HomePage/CheckProfileLink" status="PASSED">
+         <system-out><![CDATA[2018-09-15 21:34:58 - [TEST_CASE][PASSED] - Test Cases/HomePage/CheckProfileLink: Test Cases/HomePage/CheckProfileLink
+
+2018-09-15 21:34:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-15 21:35:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-15 21:35:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://dev62.calvarycch.org' successfully
+
+2018-09-15 21:35:06 - [MESSAGE][PASSED] - Navigate to 'https://dev62.calvarycch.org' successfully
+
+2018-09-15 21:35:06 - [TEST_STEP][PASSED] - setText: Text 'testworship' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'
+
+2018-09-15 21:35:07 - [MESSAGE][PASSED] - Text 'testworship' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'
+
+2018-09-15 21:35:07 - [TEST_STEP][PASSED] - setText: Text 'password123' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'
+
+2018-09-15 21:35:07 - [MESSAGE][PASSED] - Text 'password123' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'
+
+2018-09-15 21:35:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CCCH Worship - Login/input' is clicked on
+
+2018-09-15 21:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Login/input' is clicked on
+
+2018-09-15 21:35:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CCCH Worship - Home/div_Profiles' is clicked on
+
+2018-09-15 21:35:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Home/div_Profiles' is clicked on
+
+2018-09-15 21:35:34 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'CCCH Worship - Profiles'
+
+2018-09-15 21:35:34 - [MESSAGE][PASSED] - Current window's title is: 'CCCH Worship - Profiles'
+
+2018-09-15 21:35:34 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'CCCH Worship - Profiles' and expected text 'CCCH Worship - Profiles' are matched  using regular expression
+
+2018-09-15 21:35:34 - [MESSAGE][PASSED] - Actual text 'CCCH Worship - Profiles' and expected text 'CCCH Worship - Profiles' are matched  using regular expression
+
+2018-09-15 21:35:34 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Worship Leader' is present on page  using regular expression
+
+2018-09-15 21:35:34 - [MESSAGE][PASSED] - Text 'Worship Leader' is present on page  using regular expression
+
+2018-09-15 21:35:34 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-15 21:35:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/CheckScheduleLink" classname="Test Cases/HomePage/CheckScheduleLink" status="PASSED">
+         <system-out><![CDATA[2018-09-15 21:35:35 - [TEST_CASE][PASSED] - Test Cases/HomePage/CheckScheduleLink: Test Cases/HomePage/CheckScheduleLink
+
+2018-09-15 21:35:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-15 21:35:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-15 21:35:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://dev62.calvarycch.org' successfully
+
+2018-09-15 21:35:43 - [MESSAGE][PASSED] - Navigate to 'https://dev62.calvarycch.org' successfully
+
+2018-09-15 21:35:43 - [TEST_STEP][PASSED] - setText: Text 'testworship' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'
+
+2018-09-15 21:35:44 - [MESSAGE][PASSED] - Text 'testworship' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'
+
+2018-09-15 21:35:44 - [TEST_STEP][PASSED] - setText: Text 'password123' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'
+
+2018-09-15 21:35:44 - [MESSAGE][PASSED] - Text 'password123' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'
+
+2018-09-15 21:35:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CCCH Worship - Login/input' is clicked on
+
+2018-09-15 21:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Login/input' is clicked on
+
+2018-09-15 21:35:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CCCH Worship - Home/div_Schedule' is clicked on
+
+2018-09-15 21:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Home/div_Schedule' is clicked on
+
+2018-09-15 21:35:50 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'CCCH Worship - Schedule'
+
+2018-09-15 21:35:50 - [MESSAGE][PASSED] - Current window's title is: 'CCCH Worship - Schedule'
+
+2018-09-15 21:35:50 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'CCCH Worship - Schedule' and expected text 'CCCH Worship - Schedule' are matched  using regular expression
+
+2018-09-15 21:35:50 - [MESSAGE][PASSED] - Actual text 'CCCH Worship - Schedule' and expected text 'CCCH Worship - Schedule' are matched  using regular expression
+
+2018-09-15 21:35:50 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Worship Leader' is present on page  using regular expression
+
+2018-09-15 21:35:50 - [MESSAGE][PASSED] - Text 'Worship Leader' is present on page  using regular expression
+
+2018-09-15 21:35:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-15 21:35:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/CheckSummaryLink" classname="Test Cases/HomePage/CheckSummaryLink" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'A PHP Error was encountered' is not present  using regular expression (Root cause: Text 'A PHP Error was encountered' is present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1710)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1537020441251.run(Script1537020441251.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537027451190.run(TempTestSuite1537027451190.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-15 21:35:51 - [TEST_CASE][FAILED] - Test Cases/HomePage/CheckSummaryLink: Test Cases/HomePage/CheckSummaryLink FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'A PHP Error was encountered' is not present  using regular expression (Root cause: Text 'A PHP Error was encountered' is present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1710)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1537020441251.run(Script1537020441251.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537027451190.run(TempTestSuite1537027451190.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-15 21:35:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-15 21:35:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-15 21:35:53 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://dev62.calvarycch.org' successfully
+
+2018-09-15 21:35:57 - [MESSAGE][PASSED] - Navigate to 'https://dev62.calvarycch.org' successfully
+
+2018-09-15 21:35:57 - [TEST_STEP][PASSED] - setText: Text 'testworship' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'
+
+2018-09-15 21:35:58 - [MESSAGE][PASSED] - Text 'testworship' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'
+
+2018-09-15 21:35:58 - [TEST_STEP][PASSED] - setText: Text 'password123' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'
+
+2018-09-15 21:35:58 - [MESSAGE][PASSED] - Text 'password123' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'
+
+2018-09-15 21:35:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CCCH Worship - Login/input' is clicked on
+
+2018-09-15 21:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Login/input' is clicked on
+
+2018-09-15 21:36:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CCCH Worship - Home/div_summary' is clicked on
+
+2018-09-15 21:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Home/div_summary' is clicked on
+
+2018-09-15 21:36:23 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'CCCH Worship - Summary'
+
+2018-09-15 21:36:23 - [MESSAGE][PASSED] - Current window's title is: 'CCCH Worship - Summary'
+
+2018-09-15 21:36:23 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'CCCH Worship - Summary' and expected text 'CCCH Worship - Summary' are matched  using regular expression
+
+2018-09-15 21:36:23 - [MESSAGE][PASSED] - Actual text 'CCCH Worship - Summary' and expected text 'CCCH Worship - Summary' are matched  using regular expression
+
+2018-09-15 21:36:23 - [TEST_STEP][FAILED] - verifyTextNotPresent: Unable to verify text 'A PHP Error was encountered' is not present  using regular expression (Root cause: Text 'A PHP Error was encountered' is present on page  using regular expression)
+
+2018-09-15 21:36:23 - [MESSAGE][FAILED] - Text 'A PHP Error was encountered' is present on page  using regular expression
+
+2018-09-15 21:36:24 - [MESSAGE][FAILED] - Unable to verify text 'A PHP Error was encountered' is not present  using regular expression (Root cause: Text 'A PHP Error was encountered' is present on page  using regular expression)
+[[ATTACHMENT|D:\\Redmine\\worship\\test\\Reports\\HomePage\\20180915_213411\\1537027583802.png]]]]></system-out>
+         <system-err><![CDATA[2018-09-15 21:35:51 - [TEST_CASE][FAILED] - Test Cases/HomePage/CheckSummaryLink: Test Cases/HomePage/CheckSummaryLink FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'A PHP Error was encountered' is not present  using regular expression (Root cause: Text 'A PHP Error was encountered' is present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1710)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1537020441251.run(Script1537020441251.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537027451190.run(TempTestSuite1537027451190.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/CheckVblogLink" classname="Test Cases/HomePage/CheckVblogLink" status="PASSED">
+         <system-out><![CDATA[2018-09-15 21:36:24 - [TEST_CASE][PASSED] - Test Cases/HomePage/CheckVblogLink: Test Cases/HomePage/CheckVblogLink
+
+2018-09-15 21:36:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-15 21:36:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-15 21:36:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-15 21:36:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://dev62.calvarycch.org' successfully
+
+2018-09-15 21:36:33 - [MESSAGE][PASSED] - Navigate to 'https://dev62.calvarycch.org' successfully
+
+2018-09-15 21:36:33 - [TEST_STEP][PASSED] - setText: Text 'testworship' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'
+
+2018-09-15 21:36:33 - [MESSAGE][PASSED] - Text 'testworship' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'
+
+2018-09-15 21:36:33 - [TEST_STEP][PASSED] - setText: Text 'password123' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'
+
+2018-09-15 21:36:33 - [MESSAGE][PASSED] - Text 'password123' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'
+
+2018-09-15 21:36:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CCCH Worship - Login/input' is clicked on
+
+2018-09-15 21:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Login/input' is clicked on
+
+2018-09-15 21:36:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CCCH Worship - Home/div_Vblog' is clicked on
+
+2018-09-15 21:36:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Home/div_Vblog' is clicked on
+
+2018-09-15 21:36:39 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'CCCH Worship - Video Blog Archive'
+
+2018-09-15 21:36:39 - [MESSAGE][PASSED] - Current window's title is: 'CCCH Worship - Video Blog Archive'
+
+2018-09-15 21:36:39 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'CCCH Worship - Video Blog Archive' and expected text 'CCCH Worship - Video Blog Archive' are matched  using regular expression
+
+2018-09-15 21:36:39 - [MESSAGE][PASSED] - Actual text 'CCCH Worship - Video Blog Archive' and expected text 'CCCH Worship - Video Blog Archive' are matched  using regular expression
+
+2018-09-15 21:36:39 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Add New Video' is present on page  using regular expression
+
+2018-09-15 21:36:40 - [MESSAGE][PASSED] - Text 'Add New Video' is present on page  using regular expression
+
+2018-09-15 21:36:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-15 21:36:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/LogoutButtonCheck" classname="Test Cases/HomePage/LogoutButtonCheck" status="PASSED">
+         <system-out><![CDATA[2018-09-15 21:36:40 - [TEST_CASE][PASSED] - Test Cases/HomePage/LogoutButtonCheck: Test Cases/HomePage/LogoutButtonCheck
+
+2018-09-15 21:36:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-15 21:36:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-15 21:36:43 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://dev62.calvarycch.org' successfully
+
+2018-09-15 21:36:47 - [MESSAGE][PASSED] - Navigate to 'https://dev62.calvarycch.org' successfully
+
+2018-09-15 21:36:47 - [TEST_STEP][PASSED] - setText: Text 'testworship' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'
+
+2018-09-15 21:36:47 - [MESSAGE][PASSED] - Text 'testworship' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'
+
+2018-09-15 21:36:47 - [TEST_STEP][PASSED] - setText: Text 'password123' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'
+
+2018-09-15 21:36:48 - [MESSAGE][PASSED] - Text 'password123' is set on object 'Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'
+
+2018-09-15 21:36:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CCCH Worship - Login/input' is clicked on
+
+2018-09-15 21:36:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Login/input' is clicked on
+
+2018-09-15 21:36:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CCCH Worship - Home/div_Logout' is clicked on
+
+2018-09-15 21:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CCCH Worship - Home/div_Logout' is clicked on
+
+2018-09-15 21:36:55 - [TEST_STEP][PASSED] - Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(): Current window's title is: 'CCCH Worship - Login'
+
+2018-09-15 21:36:55 - [MESSAGE][PASSED] - Current window's title is: 'CCCH Worship - Login'
+
+2018-09-15 21:36:55 - [TEST_STEP][PASSED] - verifyMatch: Actual text 'CCCH Worship - Login' and expected text 'CCCH Worship - Login' are matched  using regular expression
+
+2018-09-15 21:36:55 - [MESSAGE][PASSED] - Actual text 'CCCH Worship - Login' and expected text 'CCCH Worship - Login' are matched  using regular expression
+
+2018-09-15 21:36:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-15 21:36:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-15 21:34:15 - [TEST_SUITE][FAILED] - HomePage: Test Cases/HomePage/CheckSummaryLink FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'A PHP Error was encountered' is not present  using regular expression (Root cause: Text 'A PHP Error was encountered' is present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1710)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1537020441251.run(Script1537020441251.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537027451190.run(TempTestSuite1537027451190.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-09-15 21:34:15 - [TEST_SUITE][FAILED] - HomePage: Test Cases/HomePage/CheckSummaryLink FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'A PHP Error was encountered' is not present  using regular expression (Root cause: Text 'A PHP Error was encountered' is present on page  using regular expression)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.verifyTextNotPresent(VerifyTextNotPresentKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextNotPresentKeyword.execute(VerifyTextNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextNotPresent(WebUiBuiltInKeywords.groovy:1710)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextNotPresent$8.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at Script1537020441251.run(Script1537020441251.groovy:34)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537027451190.run(TempTestSuite1537027451190.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

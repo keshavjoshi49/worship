@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+LoginPage,Chrome 69.0.3497.92,This suites contains all the test cases of Login Page,2018-09-15 21:17:13,2018-09-15 21:19:16,2m - 2.621s,FAILED
+,,,,,,
+Test Cases/Login/LoginInvalidUserValidPassword,Chrome 69.0.3497.92,Login with invalid username,2018-09-15 21:17:14,2018-09-15 21:17:39,25.070s,FAILED
+openBrowser,Chrome 69.0.3497.92,,2018-09-15 21:17:14,2018-09-15 21:17:24,9.494s,PASSED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-15 21:17:24,2018-09-15 21:17:35,10.793s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:17:35,2018-09-15 21:17:37,2.166s,PASSED
+setEncryptedText,Chrome 69.0.3497.92,,2018-09-15 21:17:37,2018-09-15 21:17:39,2.088s,FAILED
+,,,,,,
+Test Cases/Login/LoginValidUserInvalidPassword,Chrome 69.0.3497.92,Login with Invalid Password,2018-09-15 21:17:39,2018-09-15 21:18:07,27.721s,ERROR
+openBrowser,Chrome 69.0.3497.92,,2018-09-15 21:17:39,2018-09-15 21:17:50,11.302s,PASSED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-15 21:17:50,2018-09-15 21:18:07,16.091s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:18:07,2018-09-15 21:18:07,0.017s,PASSED
+,,,,,,
+Test Cases/Login/LoginWithInvalidCreds,Chrome 69.0.3497.92,This test case tries to login with invalid username and password,2018-09-15 21:18:07,2018-09-15 21:18:34,27.148s,FAILED
+openBrowser,Chrome 69.0.3497.92,,2018-09-15 21:18:07,2018-09-15 21:18:13,6.460s,PASSED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-15 21:18:13,2018-09-15 21:18:33,19.782s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:18:33,2018-09-15 21:18:33,0.225s,PASSED
+setEncryptedText,Chrome 69.0.3497.92,,2018-09-15 21:18:33,2018-09-15 21:18:34,0.439s,FAILED
+,,,,,,
+Test Cases/Login/LoginWithValidCreds,Chrome 69.0.3497.92,Login with valid username and password and click on login button,2018-09-15 21:18:34,2018-09-15 21:19:01,27.096s,PASSED
+openBrowser,Chrome 69.0.3497.92,,2018-09-15 21:18:34,2018-09-15 21:18:44,9.086s,PASSED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-15 21:18:44,2018-09-15 21:18:53,9.436s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:18:53,2018-09-15 21:18:53,0.194s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:18:53,2018-09-15 21:18:53,0.295s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:18:53,2018-09-15 21:18:59,6.012s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 69.0.3497.92,,2018-09-15 21:18:59,2018-09-15 21:19:00,0.052s,PASSED
+verifyMatch,Chrome 69.0.3497.92,,2018-09-15 21:19:00,2018-09-15 21:19:00,0.028s,PASSED
+closeBrowser,Chrome 69.0.3497.92,,2018-09-15 21:19:00,2018-09-15 21:19:01,1.850s,PASSED
+,,,,,,
+Test Cases/Login/PageLoad,Chrome 69.0.3497.92,Verify the page gets loaded succesfully.,2018-09-15 21:19:01,2018-09-15 21:19:15,13.304s,PASSED
+openBrowser,Chrome 69.0.3497.92,,2018-09-15 21:19:02,2018-09-15 21:19:04,2.338s,PASSED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-15 21:19:04,2018-09-15 21:19:15,10.651s,PASSED
+verifyTextPresent,Chrome 69.0.3497.92,,2018-09-15 21:19:15,2018-09-15 21:19:15,0.138s,PASSED

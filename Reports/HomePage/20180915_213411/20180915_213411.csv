@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HomePage,Chrome 69.0.3497.92,This suite contains all the test cases of Home Page,2018-09-15 21:34:15,2018-09-15 21:36:55,2m - 40.924s,FAILED
+,,,,,,
+Test Cases/HomePage/CheckLibraryLink,Chrome 69.0.3497.92,This test case tries to login with invalid username and password,2018-09-15 21:34:15,2018-09-15 21:34:43,28.373s,PASSED
+openBrowser,Chrome 69.0.3497.92,,2018-09-15 21:34:16,2018-09-15 21:34:19,3.573s,PASSED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-15 21:34:19,2018-09-15 21:34:25,5.846s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:34:25,2018-09-15 21:34:25,0.297s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:34:25,2018-09-15 21:34:25,0.173s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:34:25,2018-09-15 21:34:31,5.071s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:34:31,2018-09-15 21:34:40,9.676s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 69.0.3497.92,,2018-09-15 21:34:40,2018-09-15 21:34:40,0.053s,PASSED
+verifyMatch,Chrome 69.0.3497.92,,2018-09-15 21:34:40,2018-09-15 21:34:40,0.044s,PASSED
+verifyTextPresent,Chrome 69.0.3497.92,,2018-09-15 21:34:40,2018-09-15 21:34:43,2.264s,PASSED
+closeBrowser,Chrome 69.0.3497.92,,2018-09-15 21:34:43,2018-09-15 21:34:43,0.840s,PASSED
+,,,,,,
+Test Cases/HomePage/CheckPreferencesLink,Chrome 69.0.3497.92,This test case tries to login with invalid username and password,2018-09-15 21:34:43,2018-09-15 21:34:58,14.727s,PASSED
+openBrowser,Chrome 69.0.3497.92,,2018-09-15 21:34:44,2018-09-15 21:34:46,2.010s,PASSED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-15 21:34:46,2018-09-15 21:34:51,5.468s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:34:51,2018-09-15 21:34:51,0.183s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:34:51,2018-09-15 21:34:52,0.162s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:34:52,2018-09-15 21:34:57,5.470s,PASSED
+mouseOver,Chrome 69.0.3497.92,,2018-09-15 21:34:57,2018-09-15 21:34:57,0.185s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:34:57,2018-09-15 21:34:57,0.144s,PASSED
+closeBrowser,Chrome 69.0.3497.92,,2018-09-15 21:34:57,2018-09-15 21:34:58,0.824s,PASSED
+,,,,,,
+Test Cases/HomePage/CheckProfileLink,Chrome 69.0.3497.92,This test case tries to login with invalid username and password,2018-09-15 21:34:58,2018-09-15 21:35:35,36.933s,PASSED
+openBrowser,Chrome 69.0.3497.92,,2018-09-15 21:34:58,2018-09-15 21:35:01,2.362s,PASSED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-15 21:35:01,2018-09-15 21:35:06,5.632s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:35:06,2018-09-15 21:35:07,0.233s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:35:07,2018-09-15 21:35:07,0.194s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:35:07,2018-09-15 21:35:12,4.682s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:35:12,2018-09-15 21:35:34,22.449s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 69.0.3497.92,,2018-09-15 21:35:34,2018-09-15 21:35:34,0.031s,PASSED
+verifyMatch,Chrome 69.0.3497.92,,2018-09-15 21:35:34,2018-09-15 21:35:34,0.012s,PASSED
+verifyTextPresent,Chrome 69.0.3497.92,,2018-09-15 21:35:34,2018-09-15 21:35:34,0.241s,PASSED
+closeBrowser,Chrome 69.0.3497.92,,2018-09-15 21:35:34,2018-09-15 21:35:35,0.828s,PASSED
+,,,,,,
+Test Cases/HomePage/CheckScheduleLink,Chrome 69.0.3497.92,This test case tries to login with invalid username and password,2018-09-15 21:35:35,2018-09-15 21:35:51,15.663s,PASSED
+openBrowser,Chrome 69.0.3497.92,,2018-09-15 21:35:35,2018-09-15 21:35:38,2.395s,PASSED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-15 21:35:38,2018-09-15 21:35:43,5.515s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:35:43,2018-09-15 21:35:44,0.190s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:35:44,2018-09-15 21:35:44,0.161s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:35:44,2018-09-15 21:35:47,3.655s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:35:47,2018-09-15 21:35:50,2.410s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 69.0.3497.92,,2018-09-15 21:35:50,2018-09-15 21:35:50,0.024s,PASSED
+verifyMatch,Chrome 69.0.3497.92,,2018-09-15 21:35:50,2018-09-15 21:35:50,0.002s,PASSED
+verifyTextPresent,Chrome 69.0.3497.92,,2018-09-15 21:35:50,2018-09-15 21:35:50,0.359s,PASSED
+closeBrowser,Chrome 69.0.3497.92,,2018-09-15 21:35:50,2018-09-15 21:35:51,0.731s,PASSED
+,,,,,,
+Test Cases/HomePage/CheckSummaryLink,Chrome 69.0.3497.92,This test case tries to login with invalid username and password,2018-09-15 21:35:51,2018-09-15 21:36:24,32.707s,FAILED
+openBrowser,Chrome 69.0.3497.92,,2018-09-15 21:35:51,2018-09-15 21:35:53,2.271s,PASSED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-15 21:35:53,2018-09-15 21:35:57,4.022s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:35:57,2018-09-15 21:35:58,0.195s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:35:58,2018-09-15 21:35:58,0.163s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:35:58,2018-09-15 21:36:09,11.067s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:36:09,2018-09-15 21:36:23,13.997s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 69.0.3497.92,,2018-09-15 21:36:23,2018-09-15 21:36:23,0.020s,PASSED
+verifyMatch,Chrome 69.0.3497.92,,2018-09-15 21:36:23,2018-09-15 21:36:23,0.000s,PASSED
+verifyTextNotPresent,Chrome 69.0.3497.92,,2018-09-15 21:36:23,2018-09-15 21:36:24,0.664s,FAILED
+,,,,,,
+Test Cases/HomePage/CheckVblogLink,Chrome 69.0.3497.92,This test case tries to login with invalid username and password,2018-09-15 21:36:24,2018-09-15 21:36:40,16.719s,PASSED
+openBrowser,Chrome 69.0.3497.92,,2018-09-15 21:36:24,2018-09-15 21:36:27,2.914s,PASSED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-15 21:36:27,2018-09-15 21:36:33,5.956s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:36:33,2018-09-15 21:36:33,0.198s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:36:33,2018-09-15 21:36:33,0.181s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:36:33,2018-09-15 21:36:37,4.213s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:36:37,2018-09-15 21:36:39,1.952s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 69.0.3497.92,,2018-09-15 21:36:39,2018-09-15 21:36:39,0.018s,PASSED
+verifyMatch,Chrome 69.0.3497.92,,2018-09-15 21:36:39,2018-09-15 21:36:39,0.003s,PASSED
+verifyTextPresent,Chrome 69.0.3497.92,,2018-09-15 21:36:39,2018-09-15 21:36:40,0.360s,PASSED
+closeBrowser,Chrome 69.0.3497.92,,2018-09-15 21:36:40,2018-09-15 21:36:40,0.734s,PASSED
+,,,,,,
+Test Cases/HomePage/LogoutButtonCheck,Chrome 69.0.3497.92,This test case tries to login with invalid username and password,2018-09-15 21:36:40,2018-09-15 21:36:55,14.961s,PASSED
+openBrowser,Chrome 69.0.3497.92,,2018-09-15 21:36:41,2018-09-15 21:36:43,2.183s,PASSED
+navigateToUrl,Chrome 69.0.3497.92,,2018-09-15 21:36:43,2018-09-15 21:36:47,4.343s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:36:47,2018-09-15 21:36:47,0.210s,PASSED
+setText,Chrome 69.0.3497.92,,2018-09-15 21:36:47,2018-09-15 21:36:48,0.198s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:36:48,2018-09-15 21:36:53,5.660s,PASSED
+click,Chrome 69.0.3497.92,,2018-09-15 21:36:53,2018-09-15 21:36:55,1.294s,PASSED
+Statement - title = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getWindowTitle(),Chrome 69.0.3497.92,,2018-09-15 21:36:55,2018-09-15 21:36:55,0.021s,PASSED
+verifyMatch,Chrome 69.0.3497.92,,2018-09-15 21:36:55,2018-09-15 21:36:55,0.005s,PASSED
+closeBrowser,Chrome 69.0.3497.92,,2018-09-15 21:36:55,2018-09-15 21:36:55,0.758s,PASSED

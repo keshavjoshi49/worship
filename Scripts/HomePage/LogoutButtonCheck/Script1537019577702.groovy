@@ -1,6 +1,7 @@
- /*
- * This test case verifies the URL opened is correct and correct page is getting loaded
- */ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+/*
+ * This test cases validates the working of logout button
+ */
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -15,11 +16,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+// Initailize browser and navigate to application
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(url)
 
-WebUI.verifyTextPresent('Apply for Worship Ministry', true)
+// Login to application
+WebUI.setText(findTestObject('Page_CCCH Worship - Login/input_UsernamePassword_usernam'), userName)
+WebUI.setText(findTestObject('Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'), password)
+WebUI.click(findTestObject('Page_CCCH Worship - Login/input'))
+
+//Logout and check the title of Home page
+WebUI.click(findTestObject('Object Repository/Page_CCCH Worship - Home/div_Logout'))
+String title= WebUI.getWindowTitle()
+WebUI.verifyMatch(title, 'CCCH Worship - Login', true, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
+
+
 

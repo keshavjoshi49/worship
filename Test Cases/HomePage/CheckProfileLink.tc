@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case tries to login with invalid username and password</description>
+   <name>CheckProfileLink</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed49ed62-cfc9-483f-a8e4-5f87dbb5296e</testCaseGuid>
+   <variable>
+      <defaultValue>'https://dev62.calvarycch.org'</defaultValue>
+      <description></description>
+      <id>268d035d-b0cc-4189-8e40-893e49a02725</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'testworship'</defaultValue>
+      <description></description>
+      <id>54e61642-f196-4307-8fef-7ef7b0a72449</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'password123'</defaultValue>
+      <description></description>
+      <id>091cb329-139a-4026-8640-a9c58d9a3cd7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case tries to login with invalid username and password</description>
+   <name>CheckVblogLink</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>889743b7-dd53-4c6f-8f71-266489bfa69d</testCaseGuid>
+   <variable>
+      <defaultValue>'https://dev62.calvarycch.org'</defaultValue>
+      <description></description>
+      <id>1a2dbe7f-ee3b-49e6-a92b-10ba429aa09a</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'testworship'</defaultValue>
+      <description></description>
+      <id>aa74b871-a3c0-4857-bcae-eb89a24c2272</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'password123'</defaultValue>
+      <description></description>
+      <id>680cdbbf-1388-48aa-9592-a4ea388f50cb</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

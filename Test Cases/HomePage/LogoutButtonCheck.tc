@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case tries to login with invalid username and password</description>
+   <name>LogoutButtonCheck</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>554ff44e-53cd-4c2e-b445-7be4380931cc</testCaseGuid>
+   <variable>
+      <defaultValue>'https://dev62.calvarycch.org'</defaultValue>
+      <description></description>
+      <id>44591235-16ce-4c53-97d4-9d8c2602af38</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'testworship'</defaultValue>
+      <description></description>
+      <id>9bfb15d9-a61a-41ed-9aee-ccad42f20e8b</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'password123'</defaultValue>
+      <description></description>
+      <id>7d9748cf-6049-4212-9f80-34194c251888</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

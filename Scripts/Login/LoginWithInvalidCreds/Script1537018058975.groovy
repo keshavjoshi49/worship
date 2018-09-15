@@ -1,6 +1,4 @@
- /*
- * This test case verifies the URL opened is correct and correct page is getting loaded
- */ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -19,7 +17,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(url)
 
-WebUI.verifyTextPresent('Apply for Worship Ministry', true)
+WebUI.setText(findTestObject('Page_CCCH Worship - Login/input_UsernamePassword_usernam'), invalidUserName)
+
+WebUI.setText(findTestObject('Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'), password)
+
+WebUI.click(findTestObject('Page_CCCH Worship - Login/input'))
+
+WebUI.verifyTextPresent('Invalid Username/Password', true, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case tries to login with invalid username and password</description>
+   <name>CheckScheduleLink</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>037fc315-cdd5-416e-ac6c-98f62f22eb11</testCaseGuid>
+   <variable>
+      <defaultValue>'https://dev62.calvarycch.org'</defaultValue>
+      <description></description>
+      <id>f16d37c4-bdf1-480e-8106-fceb2fe7c9fe</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'testworship'</defaultValue>
+      <description></description>
+      <id>f61ca134-edea-4fde-97f2-048bacf11bc6</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'password123'</defaultValue>
+      <description></description>
+      <id>0d339d17-948e-45b1-abb2-c9e5bd844ad5</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

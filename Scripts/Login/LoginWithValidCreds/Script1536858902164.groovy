@@ -1,8 +1,6 @@
-/*
+ /*
  * This test case verifies that if a user login with valid username/password then user should successfully logged in.
- */
-
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+ */ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -17,16 +15,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-//Call test case that initalize browser and Open secure URL
-WebUI.callTestCase(findTestCase('Pre-requisite/OpenUrl'), [('SecureUrl') : 'https://dev62.calvarycch.org'], FailureHandling.STOP_ON_FAILURE)
+//initalize browser and and navigate to application
+WebUI.openBrowser('')
+WebUI.navigateToUrl(url)
 
 //Pass valid credentials and click on login.
-WebUI.setText(findTestObject('Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'), 'testworship')
+WebUI.setText(findTestObject('Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_usernam'), userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'), '8SQVv/p9jVTHLrggi8kCzw==')
+WebUI.setText(findTestObject('Object Repository/Page_CCCH Worship - Login/input_UsernamePassword_passwor'), password)
 
 WebUI.click(findTestObject('Object Repository/Page_CCCH Worship - Login/input'))
 
-// After successful login check for the text present to ensure login is fine.
-WebUI.verifyTextPresent('ANNOUNCEMENTS', true, FailureHandling.STOP_ON_FAILURE)
+// After successful login check for the title appearing 
+String title= WebUI.getWindowTitle()
+WebUI.verifyMatch(title, 'CCCH Worship - Home', true, FailureHandling.STOP_ON_FAILURE)
+WebUI.closeBrowser()
 

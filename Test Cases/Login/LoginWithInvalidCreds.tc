@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case tries to login with invalid username and password</description>
+   <name>LoginWithInvalidCreds</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9dc655a-1b56-4297-b7bf-549accbb9891</testCaseGuid>
+   <variable>
+      <defaultValue>'https://dev62.calvarycch.org'</defaultValue>
+      <description></description>
+      <id>1536583a-d0b4-4f73-a407-f1e4bc52cf17</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'asdfqwert'</defaultValue>
+      <description></description>
+      <id>ad396734-23c5-44e8-a8e1-245a04393778</id>
+      <masked>false</masked>
+      <name>invalidUserName</name>
+   </variable>
+   <variable>
+      <defaultValue>'zxcPassword'</defaultValue>
+      <description></description>
+      <id>974fc2ac-7a73-4812-b35e-c6ad2760e154</id>
+      <masked>false</masked>
+      <name>invalidPassword</name>
+   </variable>
+</TestCaseEntity>

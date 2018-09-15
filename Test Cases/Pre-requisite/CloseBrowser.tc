@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>This will close the browser. We will call it in last step</description>
-   <name>CloseBrowser</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>217681f1-f4d0-4c9c-9c1b-55ff5358fdd6</testCaseGuid>
-</TestCaseEntity>

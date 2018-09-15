@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>0bebe271-6916-4e36-a886-94e76b617985</testCaseGuid>
+   <variable>
+      <defaultValue>'testworship'</defaultValue>
+      <description></description>
+      <id>73c21bb8-f416-4782-bb6f-07b1c6cefde4</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'password123'</defaultValue>
+      <description></description>
+      <id>f5776ef2-0bd9-4949-a218-a82ae47b2aef</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://dev62.calvarycch.org'</defaultValue>
+      <description></description>
+      <id>d8ef6146-c2f4-4a1a-9f2e-ee8a7c76c57c</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
 </TestCaseEntity>

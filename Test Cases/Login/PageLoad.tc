@@ -6,9 +6,9 @@
    <comment></comment>
    <testCaseGuid>449a513b-f8e3-45e5-8c23-62d9f3520a61</testCaseGuid>
    <variable>
-      <defaultValue>'http://dev62.calvarycch.org'</defaultValue>
+      <defaultValue>'https://dev62.calvarycch.org'</defaultValue>
       <description></description>
-      <id>ffb40793-8136-40f8-931b-e7899432dee9</id>
+      <id>b3fa1473-c451-4708-985b-5c477564ea96</id>
       <masked>false</masked>
       <name>url</name>
    </variable>
